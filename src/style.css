@@ -1,0 +1,12 @@
+body {
+    width: 1200px;
+    margin: 5% auto 5% auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2%;
+}
+section {
+    background-color: dimgray;
+    border-radius: 2%;
+    padding: 3%;
+}
