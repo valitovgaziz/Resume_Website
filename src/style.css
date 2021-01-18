@@ -1,12 +1,23 @@
+html {
+    background-color: turquoise;
+}
 body {
-    width: 1200px;
-    margin: 5% auto 5% auto;
+    width: 90%;
     display: grid;
-    grid-auto-flow: column;
-    gap: 2%;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    justify-items: stretch;
+    gap: 1rem;
+    background-color: violet;
+    grid-auto-flow: row dense;
 }
 section {
-    background-color: dimgray;
-    border-radius: 2%;
-    padding: 3%;
+    background-color: rgb(232, 250, 221);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.main_info {
+    grid-column: 1/2;
+}
+.skills {
+    grid-column: 5/6;
 }
