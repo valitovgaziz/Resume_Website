@@ -7,13 +7,27 @@ body {
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     justify-items: stretch;
     gap: 1rem;
+    margin: 5% auto 5% auto;
     background-color: violet;
     grid-auto-flow: row dense;
+    grid-template-areas:    "header header header header header"
+                            ". item item item ."
+                            ". item item item ."
+                            ". item item item ."
+                            "footer footer footer footer footer";
 }
 section {
     background-color: rgb(232, 250, 221);
     border-radius: 1rem;
     padding: 1rem;
+}
+header {
+    grid-column: 1/6;
+    background-color: black;
+}
+footer {
+    background-color: black;
+    grid-column: 1/6;
 }
 .main_info {
     grid-column: 1/2;
