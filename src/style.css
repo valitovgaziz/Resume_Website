@@ -4,34 +4,47 @@ html {
 body {
     width: 90%;
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: stretch;
     gap: 1rem;
     margin: 5% auto 5% auto;
-    background-color: violet;
+    background-color: #40e0d0;
     grid-auto-flow: row dense;
     grid-template-areas:    "header header header header header"
-                            ". item item item ."
-                            ". item item item ."
-                            ". item item item ."
+                            "item item item"
+                            "item item item"
+                            "item item item"
                             "footer footer footer footer footer";
 }
 section {
-    background-color: rgb(232, 250, 221);
+    background-color: dimgrey(232, 250, 221);
     border-radius: 1rem;
     padding: 1rem;
 }
 header {
     grid-column: 1/6;
-    background-color: black;
+    background-color: dimgrey;
+    border-radius: 20px;
+}
+h1 {
+    color: white;
+    
 }
 footer {
-    background-color: black;
+    background-color: dimgrey;
     grid-column: 1/6;
+    border-radius: 20px;
 }
 .main_info {
     grid-column: 1/2;
 }
 .skills {
     grid-column: 5/6;
+}
+.item {
+    border: floralwhite;
+    border-style: solid;
+    -webkit-box-shadow: 10px 25px 14px 7px rgba(59,184,172,1);
+    -moz-box-shadow: 10px 25px 14px 7px rgba(59,184,172,1);
+    box-shadow: 10px 25px 14px 7px rgba(59,184,172,1);
 }
