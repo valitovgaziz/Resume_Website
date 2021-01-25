@@ -42,7 +42,7 @@ button {
     -moz-box-shadow: 0px 0px 24px 0px rgba(59,111,130,1);
     box-shadow: 0px 0px 24px 0px rgba(59,111,130,1);
 }
-a {
+.footer {
     display: grid;
     justify-content: center;
 }
