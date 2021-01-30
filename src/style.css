@@ -42,7 +42,7 @@ button {
     background-color: white;
 }
 button:hover {
-    border-style:solid;
+    border-style: solid;
     border-color: rgb(85, 85, 85);
     cursor: pointer;
     -webkit-box-shadow: 5px 5px 86px -2px rgba(255,255,255,1);

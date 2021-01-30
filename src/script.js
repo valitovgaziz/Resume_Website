@@ -1,6 +1,10 @@
 window.onload = function() {
-    const slider = document.getElementsByClassName('checkbox');
-
-    console.log(slider);
+    var slider = document.getElementsByClassName('switch');
+    slider.addEventListener('click', function() {
+        if(this.checked) {
+            alert("checked");
+        } else {
+            alert("unchecked");
+        }
+    });
 }
-
