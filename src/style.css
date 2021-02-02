@@ -29,6 +29,10 @@ header {
     line-height: 150%;
     gap: 1rem;
 }
+input {
+    background: none;
+    border-style: none  ;
+}
 footer {
     grid-column: 1/6;
     border-radius: 1rem;
@@ -37,14 +41,11 @@ footer {
     grid-template-areas: "button button button button";
 }
 button {
-    border-style:solid;
+    border-style: none;
     border-radius: 1rem;
-    border-color: white;
-    background-color: white;
+    background: none;
 }
 button:hover {
-    border-style: solid;
-    border-color: rgb(85, 85, 85);
     cursor: pointer;
     -webkit-box-shadow: 5px 5px 86px -2px rgba(255,255,255,1);
     -moz-box-shadow: 5px 5px 86px -2px rgba(255,255,255,1);
