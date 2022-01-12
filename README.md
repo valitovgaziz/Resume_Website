@@ -1,2 +1,2 @@
 # Resume_Website
-That my second try to build Tesume website(more serious i hope).
+That my second try to build resume website(more serious i hope).
